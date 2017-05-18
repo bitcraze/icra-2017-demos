@@ -11,6 +11,6 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="1915", ATTRS{idProduct}=="7777", MODE=="0664
 To autostart the script at startup you need to execute the following:
 ```
 sudo cp estop /etc/init.d
-sudo chmod 755 /etc/init.d
+sudo chmod 755 /etc/init.d/estop
 sudo update-rc.d estop defaults
 ```
